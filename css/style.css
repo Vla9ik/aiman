@@ -1291,6 +1291,17 @@ body {
   }
 }
 
+@media (max-width: 37.5em) {
+  .body-tab__btn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
 @media (max-width: 32.1875em) {
   .presentation__ball {
     left: 35%;
@@ -1305,15 +1316,6 @@ body {
     row-gap: 1.875rem;
     -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
-  }
-
-  .body-tab__btn {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
   }
 }
 
