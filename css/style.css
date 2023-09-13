@@ -520,6 +520,11 @@ body {
   display: none;
 }
 
+.footer._watcher-view {
+  -webkit-animation: transition-up 0.6s normal linear;
+          animation: transition-up 0.6s normal linear;
+}
+
 .footer__container {
   display: -ms-grid;
   display: grid;
